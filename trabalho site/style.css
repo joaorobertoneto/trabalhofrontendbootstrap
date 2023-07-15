@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Zilla+Slab:wght@300&display=swap');
+
+
+:root{
+    font-family: 'Bungee', cursive;
+    font-family: 'Zilla Slab', serif;
+}
+.formato{
+    display: grid;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #395267;
+    grid-area: header;
+    position: sticky ;
+    display: grid;
+    top: 0;
+    z-index: 2;
+}
+main{
+    grid-area: main;
+    background-color: #4C778A;
+}
+.logo{
+    width: 18vw;
+
+    height: auto;
+}
+footer{
+    grid-area: footer;
+    background-color:#395267;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    width: auto;
+    height: 25px;
+}
+.cabecalho{
+    display: flex;
+    justify-self:left;
+}
+.atalhos{
+    color:white;
+    display: flex;
+    font-size: 1.4rem;
+    max-height:130px ;
+}
+.atalhos a{
+        margin:5vw;
+    margin-left: 5vw;
+    }
+.ca{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee', cursive;
+}
+.alb1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee', cursive;
+    font-size: 1rem;
+}
+.nav-item a{
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    text-decoration: none
+}
+.textalb{
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.2rem;
+    background-color: #395267;
+    border-color: black ;
+    border-style:solid;
+    margin-top: 10px;
+    border-radius: 3vw;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+.introtext{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.introtext h1{
+ font-family: 'Bungee', cursive; ;
+}
+.introtext p{
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.8rem;
+}
+.intro img{
+    margin-top: 10px;
+    width: 50%;
+    justify-self: center;
+}
