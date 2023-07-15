@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Zilla+Slab:wght@300&display=swap');
+.animation{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    rotate:270deg;
+  }
 
+  .animation img{
+    width: 5vw;
+  }
+  
+ 
+  @keyframes animation{
+    0%   { left:0px; top:1px;}
+    10% { left:200px; top:0px; rotate:200deg}
+    25%  { left:400px; top:0px; rotate:150deg;}
+    35%{ left:600px; top: 0px; rotate:100deg;}
+    42%{ left: 850px; top:0px; rotate: 50deg;}
+    50%  { left: 1250px; top:0px; rotate: 0deg;}
+    53%  { left: 1100px; top:200px; rotate:860deg}
+    58%  { left: 850px; top:0px; rotate: 50deg; }
+    65%  { left:600px; top:0px; rotate: 100deg;}
+    75% {left:400px; top:0px; rotate:150deg;}
+    90% { left:200px; top:0px; rotate:200deg}
+    100% { left:0px; top:1px;}
+  }
 
 :root{
     font-family: 'Bungee', cursive;
@@ -55,6 +83,7 @@ footer{
     margin-left: 5vw;
     }
 .ca{
+    width: 100%;
     display: flex;
     justify-content: center;
     font-family: 'Bungee', cursive;
