@@ -25,7 +25,7 @@
                 <a class="nav-link active" aria-current="page" href="#Albuns">Álbuns </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#Musicas">Músicas</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -48,10 +48,9 @@
         <p>   Olá, eu sou João Roberto e esse é o meu site sobre música, irei mostrar as músicas que eu mais curto e também as que mais fazem sucesso 😎🎸</p>
       </div>
       <div class="animation" > <img src="img/animation.png" alt="guitarra"></div> 
-        <div class="alb1"> <a><p>Meus albums mais escutados entre 2022-2023:</p></a></div>
+        <div class="alb1"> <a><p>Meus álbums mais escutados entre 2022-2023:</p></a></div>
 
          <div class="ca">
-          <section id="Albuns"></section>
 
         <!-- Carousel -->
    
@@ -87,11 +86,12 @@
   </div>
 </div>
 <div class="texto"> 
-
+  <section id="Musicas"></section>
   <div class="textalb">
         <p>Esses foram os álbuns que eu mais escutei em 2022/2023, desses 3 álbuns o meu favorito é Hybrid Theory, e minha musica favorita "In the end". <br>
         Todos esses álbuns são do gênero musical rock, o meu favorito.</p>
       </div>
+ 
       <div class="musc1">
         <p> Essas foram as músicas que eu mais escutei em 2022/2023</p> 
       </div>
@@ -111,7 +111,7 @@
                   <td>Linkin Park</td>
               </tr>
               <tr>
-                  <td>Album:</td>
+                  <td>Álbum:</td>
                   <td>Minutes to midnight</td>
               </tr>
               <tr>
@@ -146,7 +146,7 @@
                     <td>System of a down</td>
                 </tr>
                 <tr>
-                    <td>Album:</td>
+                    <td>Álbum:</td>
                     <td>Toxicity</td>
                 </tr>
                 <tr>
@@ -181,7 +181,7 @@
                     <td>Metallica</td>
                 </tr>
                 <tr>
-                    <td>Album:</td>
+                    <td>Álbum:</td>
                     <td>Master of puppets</td>
                 </tr>
                 <tr>
@@ -216,7 +216,7 @@
                     <td>Linkin park</td>
                 </tr>
                 <tr>
-                    <td>Album:</td>
+                    <td>Álbum:</td>
                     <td>Hybrid Theory</td>
                 </tr>
                 <tr>
@@ -251,7 +251,7 @@
                     <td>System of a down</td>
                 </tr>
                 <tr>
-                    <td>Album:</td>
+                    <td>Álbum:</td>
                     <td>Mezmerize</td>
                 </tr>
                 <tr>
@@ -271,7 +271,25 @@
           </table>
         </div>
       </div>
+      <div class="alb1">
+        <a><p> Pergunte a nós</p></a>
       </div>
+      <form class="formulario" id="formulario">
+        <fieldset>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Bote seu email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Nós diga sua mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="enviar">Enviar :D</button>
+        </fieldset>
+      </form>
+    
+      </div><br>
+
     </main>
     <footer>
 <p>©MYMUSIC2023</p>
@@ -279,5 +297,6 @@
     </footer>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

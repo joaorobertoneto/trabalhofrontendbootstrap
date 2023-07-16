@@ -117,7 +117,8 @@ footer{
 .nav-item a{
     color: white;
     font-family: 'Zilla Slab', serif;
-    text-decoration: none
+    text-decoration: none;
+    font-size: 1.5rem;
 }
 .textalb{
     text-align: center;
@@ -173,4 +174,27 @@ td{
     display: flexbox;
 padding-bottom: 25px;
  padding-left: 20px;
+}
+fieldset{
+    background-color: #4C778A;
+border: 3px solid black;
+
+}
+#mensagem{
+    background-color: #395267;
+    border: #395267;
+    color: white;
+    height: 1vw;
+}
+.formulario{
+    display: flexbox;
+    justify-self: center;
+    margin-left: 25vw;
+    width: 50vw;
+}
+#enviar{
+    border:none;
+    background-color:#395267 ;
+    margin-left: 20vw;
+
 }
