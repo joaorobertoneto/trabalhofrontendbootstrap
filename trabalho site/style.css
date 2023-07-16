@@ -12,21 +12,35 @@
   .animation img{
     width: 5vw;
   }
-  
+.animation1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animation1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.animation1 img{
+    width: 5vw;
+}
+@keyframes animation1{
+    0% {left:65vw; top: 1000px;}
+    100%{ left:80vw; top:-550px}
+}
  
   @keyframes animation{
-    0%   { left:0px; top:1px;}
-    10% { left:200px; top:0px; rotate:200deg}
-    25%  { left:400px; top:0px; rotate:150deg;}
-    35%{ left:600px; top: 0px; rotate:100deg;}
-    42%{ left: 850px; top:0px; rotate: 50deg;}
-    50%  { left: 1250px; top:0px; rotate: 0deg;}
-    53%  { left: 1100px; top:200px; rotate:860deg}
-    58%  { left: 850px; top:0px; rotate: 50deg; }
-    65%  { left:600px; top:0px; rotate: 100deg;}
-    75% {left:400px; top:0px; rotate:150deg;}
-    90% { left:200px; top:0px; rotate:200deg}
-    100% { left:0px; top:1px;}
+    0%   { left:0%; top:0px;}
+    10% { left:20vw; top:0px; rotate:200deg}
+    25%  { left:50vw; top:0px; rotate:150deg;}
+    35%{ left:75vw; top: 0px; rotate:100deg;}
+    42%{ left: 80vw; top:0px; rotate: 50deg;}
+    50%  { left: 90vw; top:0px; rotate: 0deg;}
+    53%  { left: 86vw; top:200px; rotate:860deg}
+    58%  { left: 80vw; top:0px; rotate: 50deg; }
+    65%  { left:75vw; top:0px; rotate: 100deg;}
+    75% {left:50vw; top:0px; rotate:150deg;}
+    90% { left:20vw; top:0px; rotate:200deg}
+    100% { left:0%; top:1px;}
   }
 
 :root{
@@ -92,7 +106,13 @@ footer{
     display: flex;
     justify-content: center;
     font-family: 'Bungee', cursive;
-    font-size: 1rem;
+    font-size: 2rem;
+}
+.musc1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee', cursive;
+    font-size: 1.8rem;
 }
 .nav-item a{
     color: white;
@@ -102,12 +122,12 @@ footer{
 .textalb{
     text-align: center;
     font-family: 'Zilla Slab', serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     background-color: #395267;
     border-color: black ;
     border-style:solid;
     margin-top: 10px;
-    border-radius: 3vw;
+    border-radius: 2.5vw;
 }
 .intro{
     display: flex;
@@ -129,4 +149,28 @@ footer{
     margin-top: 10px;
     width: 50%;
     justify-self: center;
+}
+.lugar1 img{ 
+    width: 40vw;
+}
+.lugar1{
+    display:flex;
+    border: 3px solid black;
+    width:69vw;
+    height:auto;
+}
+th{
+    font-family: 'Bungee', cursive;
+    font-size: 1.5em;
+    padding-left: 50px;
+}
+td{
+    font-family:'Zilla Slab', serif; 
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+.tabelas{
+    display: flexbox;
+padding-bottom: 25px;
+ padding-left: 20px;
 }
