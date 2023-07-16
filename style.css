@@ -66,6 +66,9 @@ footer{
     width: auto;
     height: 25px;
 }
+footer a{
+   text-decoration: none;
+}
 .cabecalho{
     display: flex;
     justify-self:left;
