@@ -3,3 +3,4 @@ As Sessões são
 2:Álbuns: a parte que mostra os álbuns que eu mais escutei(é possivel ir para ela clicando no botão Álbuns)
 3:Músicas: a parte que mostra as músicas que eu mais ouvi(é possivel ir para ela clicando no botão musicas)
 4:formulário: o formulário(é possivel ir para ele clicando no botão formulário)
+Para acessar o html minificado é só clicar no texto do rodapé
