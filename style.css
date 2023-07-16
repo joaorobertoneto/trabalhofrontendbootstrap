@@ -12,22 +12,6 @@
   .animation img{
     width: 5vw;
   }
-.animation1{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-name: animation1;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-}
-.animation1 img{
-    width: 5vw;
-}
-@keyframes animation1{
-    0% {left:65vw; top: 1000px;}
-    100%{ left:80vw; top:-550px}
-}
- 
   @keyframes animation{
     0%   { left:0%; top:0px;}
     10% { left:20vw; top:0px; rotate:200deg}
