@@ -4,3 +4,4 @@ As Sessões são
 3:Músicas: a parte que mostra as músicas que eu mais ouvi(é possivel ir para ela clicando no botão musicas)
 4:formulário: o formulário(é possivel ir para ele clicando no botão formulário)
 Para acessar o html minificado é só clicar no texto do rodapé
+Sobre o desempenho, coloquei todas imagens em webp e lazy nas que deveria ter lazy, a parte que mais demora para carregar é o bootstrap e ai eu não sei como ajeitar para carregar mais rapido
